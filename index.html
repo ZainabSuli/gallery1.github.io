@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body>
+	<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="images/logo.jpg" alt="logo" width="32" height="32">
+
+	<div id = "image">
+        <img src="images/logo.jpg" alt="logo" >
+		Image below to display here.
+	</div>
+	<div id ="text">Enter your like Painting: <input type="text" onfocus="myFunction(this)">
+	</div>
+
+	<div class = "flex">
+
+	<img class = "preview" alt = "Prince Mohammed bin Salman." src = "images/MBS1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "Prince Mohammed with King Abdulaziz" src = "images/kingmbs3.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "images/kingmbs2.jpg" alt = "Prince Mohammed with King Salman" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+	<img class = "preview" src = "images/kingmbs1.jpeg" alt = "Prince Mohammed with King Salman" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "images/mbs2.jpg" alt = "Prince Mohammed bin Salman" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+	<img class = "preview" src = "images/abadi.jpg" alt = "sengr Abadi Aljoher" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "images/FA.jpg" alt = "My bro Faisal" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	
+	<img class = "preview" src = "images/P1.jpg" alt = "Painting" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "images/p2.jpg" alt = "Painting" onmouseover = "upDate(this)" onmouseout = "unDo()">
+</div>
+</body>
+</html>
